@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>foo, bar n baz</title>
+ <link href="http://foobarnbaz.com/atom.xml" rel="self"/>
+ <link href="http://foobarnbaz.com/"/>
+ <updated>2011-12-31T00:00:00+5:30</updated>
+ <id>http://foobarnbaz.com/</id>
+ <author>
+   <name>Sreejith K</name>
+   <email>sreejithemk@gmail.com</email>
+ </author>
+ 
+ 
+ <entry>
+   <title>Hello, World!</title>
+   <link href="http://foobarnbaz.com/2011/12/31/a-magic-tool-for-tuxpaint"/>
+   <updated>2011-12-31T00:00:00+5:30</updated>
+   <id>http://foobarnbaz.com/2011/12/31/a-magic-tool-for-tuxpaint</id>
+   <content type="html">&lt;p&gt;Hello, World!&lt;/p&gt;</content>
+ </entry>
+ 
+ 
+</feed>

@@ -1,0 +1,614 @@
+voldemort - Voldemort working at /Users/sree/src/fbb-dark
+voldemort.config - Loading voldemort configuration
+voldemort.template - Adding template directories to environment
+voldemort.template - Initializing voldemort filters
+voldemort - The following list of directories/files will be ignored: /Users/sree/src/fbb-dark/posts, /Users/sree/src/fbb-dark/_site, /Users/sree/src/fbb-dark/voldemort.log, /Users/sree/src/fbb-dark/.git, /Users/sree/src/fbb-dark/.DS_Store, /Users/sree/src/fbb-dark/layout, /Users/sree/src/fbb-dark/include
+voldemort - Creating /Users/sree/src/fbb-dark/_site
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/a-magic-tool-for-tuxpaint.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/borg-pattern.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/building-custom-firmware-for-ps3.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/cheapest-personal-computer-on-a-usb.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/commandline-mapper.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/cricinfo-api-for-python.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/custom-authentication-on-gae.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/developing-scalable-services-with-python.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/factory-service-mode-om-playstation-3.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/fix-parallels-desktop-on-lion.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/github-powered-blogging.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/hacking-playstation3-with-teensy.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/hypergae-use-hypertable-for-appengine-datastore.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/i-have-an-droid.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/learn-web-development-with-flask.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/packaging-python-applications.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/reads-for-the-new-year.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/ubuntu-maverick-meerkat.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/voldemort-a-jinja-powered-static-site-generator.html
+voldemort - Generating posts from /Users/sree/src/fbb-dark/posts
+voldemort - ERROR: 'highlight' is undefined. Refer /Users/sree/src/fbb-dark/voldemort.log for detailed information.
+voldemort - TRACEBACK: 'Traceback (most recent call last):\n  File "/Users/sree/src/voldemort/voldemort/__init__.py", line 337, in run\n    self.generate()\n  File "/Users/sree/src/voldemort/voldemort/__init__.py", line 138, in generate\n    self.generate_posts()\n  File "/Users/sree/src/voldemort/voldemort/__init__.py", line 273, in generate_posts\n    {\'post\': post, \'page\': post} )\n  File "/Users/sree/src/voldemort/voldemort/template.py", line 108, in render\n    return tmpl.render(values)\n  File "/Library/Python/2.7/site-packages/Jinja2-2.6-py2.7.egg/jinja2/environment.py", line 894, in render\n    return self.environment.handle_exception(exc_info, True)\n  File "<template>", line 1, in top-level template code\n  File "/Users/sree/src/fbb-dark/layout/post.html", line 1, in top-level template code\n    {% extends "listing.html" %}\n  File "/Users/sree/src/fbb-dark/layout/listing.html", line 20, in top-level template code\n    {% include highlight.html %}\n  File "/Library/Python/2.7/site-packages/Jinja2-2.6-py2.7.egg/jinja2/environment.py", line 372, in getattr\n    return getattr(obj, attribute)\nUndefinedError: \'highlight\' is undefined\n'
+voldemort - Voldemort working at /Users/sree/src/fbb-dark
+voldemort.config - Loading voldemort configuration
+voldemort.template - Adding template directories to environment
+voldemort.template - Initializing voldemort filters
+voldemort - The following list of directories/files will be ignored: /Users/sree/src/fbb-dark/posts, /Users/sree/src/fbb-dark/_site, /Users/sree/src/fbb-dark/voldemort.log, /Users/sree/src/fbb-dark/.git, /Users/sree/src/fbb-dark/.DS_Store, /Users/sree/src/fbb-dark/layout, /Users/sree/src/fbb-dark/include
+voldemort - Removing /Users/sree/src/fbb-dark/_site
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/a-magic-tool-for-tuxpaint.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/borg-pattern.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/building-custom-firmware-for-ps3.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/cheapest-personal-computer-on-a-usb.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/commandline-mapper.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/cricinfo-api-for-python.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/custom-authentication-on-gae.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/developing-scalable-services-with-python.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/factory-service-mode-om-playstation-3.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/fix-parallels-desktop-on-lion.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/github-powered-blogging.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/hacking-playstation3-with-teensy.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/hypergae-use-hypertable-for-appengine-datastore.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/i-have-an-droid.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/learn-web-development-with-flask.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/packaging-python-applications.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/reads-for-the-new-year.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/ubuntu-maverick-meerkat.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/voldemort-a-jinja-powered-static-site-generator.html
+voldemort - Generating posts from /Users/sree/src/fbb-dark/posts
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/10/05/voldemort-a-jinja-powered-static-site-generator/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/10/02/packaging-python-applications/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/08/30/developing-scalable-services-with-python/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/07/31/custom-authentication-on-gae/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/07/27/fix-parallels-desktop-on-lion/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/05/07/cheapest-personal-computer-on-a-usb/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/04/11/a-magic-tool-for-tuxpaint/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/02/21/i-have-an-droid/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/01/08/hypergae-use-hypertable-for-appengine-datastore/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/01/05/building-custom-firmware-for-ps3/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/12/31/reads-for-the-new-year/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/12/25/learn-web-development-with-flask/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/12/12/factory-service-mode-om-playstation-3/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/11/30/cricinfo-api-for-python/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/11/07/ubuntu-maverick-meerkat/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/10/06/borg-pattern/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/10/02/commandline-mapper/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/10/02/hacking-playstation3-with-teensy/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/09/23/github-powered-blogging/index.html
+voldemort - Generating pages
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/about.markdown
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/about/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/archive.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/archive/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/atom.xml
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/atom.xml
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/games.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/games/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/index.html
+voldemort - Paginating page /Users/sree/src/fbb-dark/index.html
+voldemort - Paginating: POSTS FROM 0 to 5. PAGE NO: 1 TOTAL: 4 PREV: None NEXT: 2
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/index.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page1/index.html
+voldemort - Paginating: POSTS FROM 5 to 10. PAGE NO: 2 TOTAL: 4 PREV: 1 NEXT: 3
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page2/index.html
+voldemort - Paginating: POSTS FROM 10 to 15. PAGE NO: 3 TOTAL: 4 PREV: 2 NEXT: 4
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page3/index.html
+voldemort - Paginating: POSTS FROM 15 to 20. PAGE NO: 4 TOTAL: 4 PREV: 3 NEXT: None
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page4/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/lab.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/lab/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/not-found-404.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/not-found-404/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/robots.txt
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/robots.txt
+voldemort - Moving /Users/sree/src/fbb-dark/settings.yaml to /Users/sree/src/fbb-dark/_site/settings.yaml
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/sitemap.xml
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/sitemap.xml
+voldemort - Moving /Users/sree/src/fbb-dark/voldemort.log to /Users/sree/src/fbb-dark/_site/voldemort.log
+voldemort - Moving /Users/sree/src/fbb-dark/css/screen.css to /Users/sree/src/fbb-dark/_site/css/screen.css
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/404.jpg to /Users/sree/src/fbb-dark/_site/images/layout/404.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/body.png to /Users/sree/src/fbb-dark/_site/images/layout/body.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/button.png to /Users/sree/src/fbb-dark/_site/images/layout/button.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/dot.png to /Users/sree/src/fbb-dark/_site/images/layout/dot.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/favicon.ico to /Users/sree/src/fbb-dark/_site/images/layout/favicon.ico
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/footer.png to /Users/sree/src/fbb-dark/_site/images/layout/footer.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/header-cutout.png to /Users/sree/src/fbb-dark/_site/images/layout/header-cutout.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/header-low.png to /Users/sree/src/fbb-dark/_site/images/layout/header-low.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/headline.png to /Users/sree/src/fbb-dark/_site/images/layout/headline.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/subheadline.png to /Users/sree/src/fbb-dark/_site/images/layout/subheadline.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/backing_up.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/backing_up.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/backup_manager.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/backup_manager.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/bm_screen.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/bm_screen.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/exploited.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/exploited.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/ftp_server.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/ftp_server.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/installing.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/installing.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/teensy_loaded.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/teensy_loaded.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-12-31-reads-for-the-new-year/books.png to /Users/sree/src/fbb-dark/_site/images/posts/2010-12-31-reads-for-the-new-year/books.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2011-02-21-i-have-an-droid/emulator.png to /Users/sree/src/fbb-dark/_site/images/posts/2011-02-21-i-have-an-droid/emulator.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2011-04-11-a-magic-tool-for-tux-paint/scratch_on_bricks.png to /Users/sree/src/fbb-dark/_site/images/posts/2011-04-11-a-magic-tool-for-tux-paint/scratch_on_bricks.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2011-10-05-voldemort-a-jinja-powered-static-site-generator/voldemort.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2011-10-05-voldemort-a-jinja-powered-static-site-generator/voldemort.jpg
+voldemort - Done.
+voldemort - Voldemort working at /Users/sree/src/fbb-dark
+voldemort.config - Loading voldemort configuration
+voldemort.template - Adding template directories to environment
+voldemort.template - Initializing voldemort filters
+voldemort - The following list of directories/files will be ignored: /Users/sree/src/fbb-dark/posts, /Users/sree/src/fbb-dark/_site, /Users/sree/src/fbb-dark/voldemort.log, /Users/sree/src/fbb-dark/.git, /Users/sree/src/fbb-dark/.DS_Store, /Users/sree/src/fbb-dark/layout, /Users/sree/src/fbb-dark/include
+voldemort - Serving HTTP on 0.0.0.0 port 8080 ...
+voldemort - Stopping httpd...
+voldemort - Voldemort working at /Users/sree/src/fbb-dark
+voldemort.config - Loading voldemort configuration
+voldemort.template - Adding template directories to environment
+voldemort.template - Initializing voldemort filters
+voldemort - The following list of directories/files will be ignored: /Users/sree/src/fbb-dark/posts, /Users/sree/src/fbb-dark/_site, /Users/sree/src/fbb-dark/voldemort.log, /Users/sree/src/fbb-dark/.git, /Users/sree/src/fbb-dark/.DS_Store, /Users/sree/src/fbb-dark/layout, /Users/sree/src/fbb-dark/include
+voldemort - Serving HTTP on 0.0.0.0 port 8080 ...
+voldemort - Stopping httpd...
+voldemort - Voldemort working at /Users/sree/src/fbb-dark
+voldemort.config - Loading voldemort configuration
+voldemort.template - Adding template directories to environment
+voldemort.template - Initializing voldemort filters
+voldemort - The following list of directories/files will be ignored: /Users/sree/src/fbb-dark/posts, /Users/sree/src/fbb-dark/_site, /Users/sree/src/fbb-dark/voldemort.log, /Users/sree/src/fbb-dark/.git, /Users/sree/src/fbb-dark/.DS_Store, /Users/sree/src/fbb-dark/layout, /Users/sree/src/fbb-dark/include
+voldemort - Serving HTTP on 0.0.0.0 port 8080 ...
+voldemort - Stopping httpd...
+voldemort - Voldemort working at /Users/sree/src/fbb-dark
+voldemort.config - Loading voldemort configuration
+voldemort.template - Adding template directories to environment
+voldemort.template - Initializing voldemort filters
+voldemort - The following list of directories/files will be ignored: /Users/sree/src/fbb-dark/posts, /Users/sree/src/fbb-dark/_site, /Users/sree/src/fbb-dark/voldemort.log, /Users/sree/src/fbb-dark/.git, /Users/sree/src/fbb-dark/.DS_Store, /Users/sree/src/fbb-dark/layout, /Users/sree/src/fbb-dark/include
+voldemort - Removing /Users/sree/src/fbb-dark/_site
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/a-magic-tool-for-tuxpaint.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/borg-pattern.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/building-custom-firmware-for-ps3.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/cheapest-personal-computer-on-a-usb.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/commandline-mapper.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/cricinfo-api-for-python.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/custom-authentication-on-gae.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/developing-scalable-services-with-python.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/factory-service-mode-om-playstation-3.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/fix-parallels-desktop-on-lion.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/github-powered-blogging.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/hacking-playstation3-with-teensy.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/hypergae-use-hypertable-for-appengine-datastore.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/i-have-an-droid.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/learn-web-development-with-flask.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/packaging-python-applications.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/reads-for-the-new-year.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/ubuntu-maverick-meerkat.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/voldemort-a-jinja-powered-static-site-generator.html
+voldemort - Generating posts from /Users/sree/src/fbb-dark/posts
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/10/05/voldemort-a-jinja-powered-static-site-generator/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/10/02/packaging-python-applications/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/08/30/developing-scalable-services-with-python/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/07/31/custom-authentication-on-gae/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/07/27/fix-parallels-desktop-on-lion/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/05/07/cheapest-personal-computer-on-a-usb/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/04/11/a-magic-tool-for-tuxpaint/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/02/21/i-have-an-droid/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/01/08/hypergae-use-hypertable-for-appengine-datastore/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/01/05/building-custom-firmware-for-ps3/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/12/31/reads-for-the-new-year/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/12/25/learn-web-development-with-flask/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/12/12/factory-service-mode-om-playstation-3/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/11/30/cricinfo-api-for-python/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/11/07/ubuntu-maverick-meerkat/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/10/06/borg-pattern/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/10/02/commandline-mapper/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/10/02/hacking-playstation3-with-teensy/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/09/23/github-powered-blogging/index.html
+voldemort - Generating pages
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/about.markdown
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/about/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/archive.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/archive/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/atom.xml
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/atom.xml
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/games.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/games/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/index.html
+voldemort - Paginating page /Users/sree/src/fbb-dark/index.html
+voldemort - Paginating: POSTS FROM 0 to 5. PAGE NO: 1 TOTAL: 4 PREV: None NEXT: 2
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/index.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page1/index.html
+voldemort - Paginating: POSTS FROM 5 to 10. PAGE NO: 2 TOTAL: 4 PREV: 1 NEXT: 3
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page2/index.html
+voldemort - Paginating: POSTS FROM 10 to 15. PAGE NO: 3 TOTAL: 4 PREV: 2 NEXT: 4
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page3/index.html
+voldemort - Paginating: POSTS FROM 15 to 20. PAGE NO: 4 TOTAL: 4 PREV: 3 NEXT: None
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page4/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/lab.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/lab/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/not-found-404.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/not-found-404/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/robots.txt
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/robots.txt
+voldemort - Moving /Users/sree/src/fbb-dark/settings.yaml to /Users/sree/src/fbb-dark/_site/settings.yaml
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/sitemap.xml
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/sitemap.xml
+voldemort - Moving /Users/sree/src/fbb-dark/voldemort.log to /Users/sree/src/fbb-dark/_site/voldemort.log
+voldemort - Moving /Users/sree/src/fbb-dark/css/screen.css to /Users/sree/src/fbb-dark/_site/css/screen.css
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/404.jpg to /Users/sree/src/fbb-dark/_site/images/layout/404.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/body.png to /Users/sree/src/fbb-dark/_site/images/layout/body.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/button.png to /Users/sree/src/fbb-dark/_site/images/layout/button.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/dot.png to /Users/sree/src/fbb-dark/_site/images/layout/dot.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/favicon.ico to /Users/sree/src/fbb-dark/_site/images/layout/favicon.ico
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/footer.png to /Users/sree/src/fbb-dark/_site/images/layout/footer.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/header-cutout.png to /Users/sree/src/fbb-dark/_site/images/layout/header-cutout.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/header-low.png to /Users/sree/src/fbb-dark/_site/images/layout/header-low.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/headline.png to /Users/sree/src/fbb-dark/_site/images/layout/headline.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/subheadline.png to /Users/sree/src/fbb-dark/_site/images/layout/subheadline.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/backing_up.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/backing_up.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/backup_manager.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/backup_manager.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/bm_screen.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/bm_screen.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/exploited.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/exploited.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/ftp_server.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/ftp_server.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/installing.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/installing.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/teensy_loaded.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/teensy_loaded.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-12-31-reads-for-the-new-year/books.png to /Users/sree/src/fbb-dark/_site/images/posts/2010-12-31-reads-for-the-new-year/books.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2011-02-21-i-have-an-droid/emulator.png to /Users/sree/src/fbb-dark/_site/images/posts/2011-02-21-i-have-an-droid/emulator.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2011-04-11-a-magic-tool-for-tux-paint/scratch_on_bricks.png to /Users/sree/src/fbb-dark/_site/images/posts/2011-04-11-a-magic-tool-for-tux-paint/scratch_on_bricks.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2011-10-05-voldemort-a-jinja-powered-static-site-generator/voldemort.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2011-10-05-voldemort-a-jinja-powered-static-site-generator/voldemort.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/javascript/hijs.js to /Users/sree/src/fbb-dark/_site/javascript/hijs.js
+voldemort - Done.
+voldemort - Voldemort working at /Users/sree/src/fbb-dark
+voldemort.config - Loading voldemort configuration
+voldemort.template - Adding template directories to environment
+voldemort.template - Initializing voldemort filters
+voldemort - The following list of directories/files will be ignored: /Users/sree/src/fbb-dark/posts, /Users/sree/src/fbb-dark/_site, /Users/sree/src/fbb-dark/voldemort.log, /Users/sree/src/fbb-dark/.git, /Users/sree/src/fbb-dark/.DS_Store, /Users/sree/src/fbb-dark/layout, /Users/sree/src/fbb-dark/include
+voldemort - Serving HTTP on 0.0.0.0 port 8080 ...
+voldemort - Stopping httpd...
+voldemort - Voldemort working at /Users/sree/src/fbb-dark
+voldemort.config - Loading voldemort configuration
+voldemort.template - Adding template directories to environment
+voldemort.template - Initializing voldemort filters
+voldemort - The following list of directories/files will be ignored: /Users/sree/src/fbb-dark/posts, /Users/sree/src/fbb-dark/_site, /Users/sree/src/fbb-dark/voldemort.log, /Users/sree/src/fbb-dark/.git, /Users/sree/src/fbb-dark/.DS_Store, /Users/sree/src/fbb-dark/layout, /Users/sree/src/fbb-dark/include
+voldemort - Removing /Users/sree/src/fbb-dark/_site
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/a-magic-tool-for-tuxpaint.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/borg-pattern.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/building-custom-firmware-for-ps3.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/cheapest-personal-computer-on-a-usb.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/commandline-mapper.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/cricinfo-api-for-python.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/custom-authentication-on-gae.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/developing-scalable-services-with-python.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/factory-service-mode-om-playstation-3.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/fix-parallels-desktop-on-lion.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/github-powered-blogging.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/hacking-playstation3-with-teensy.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/hypergae-use-hypertable-for-appengine-datastore.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/i-have-an-droid.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/learn-web-development-with-flask.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/packaging-python-applications.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/reads-for-the-new-year.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/ubuntu-maverick-meerkat.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/voldemort-a-jinja-powered-static-site-generator.html
+voldemort - Generating posts from /Users/sree/src/fbb-dark/posts
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/10/05/voldemort-a-jinja-powered-static-site-generator/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/10/02/packaging-python-applications/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/08/30/developing-scalable-services-with-python/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/07/31/custom-authentication-on-gae/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/07/27/fix-parallels-desktop-on-lion/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/05/07/cheapest-personal-computer-on-a-usb/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/04/11/a-magic-tool-for-tuxpaint/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/02/21/i-have-an-droid/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/01/08/hypergae-use-hypertable-for-appengine-datastore/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/01/05/building-custom-firmware-for-ps3/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/12/31/reads-for-the-new-year/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/12/25/learn-web-development-with-flask/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/12/12/factory-service-mode-om-playstation-3/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/11/30/cricinfo-api-for-python/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/11/07/ubuntu-maverick-meerkat/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/10/06/borg-pattern/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/10/02/commandline-mapper/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/10/02/hacking-playstation3-with-teensy/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/09/23/github-powered-blogging/index.html
+voldemort - Generating pages
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/about.markdown
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/about/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/archive.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/archive/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/atom.xml
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/atom.xml
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/games.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/games/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/index.html
+voldemort - Paginating page /Users/sree/src/fbb-dark/index.html
+voldemort - Paginating: POSTS FROM 0 to 5. PAGE NO: 1 TOTAL: 4 PREV: None NEXT: 2
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/index.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page1/index.html
+voldemort - Paginating: POSTS FROM 5 to 10. PAGE NO: 2 TOTAL: 4 PREV: 1 NEXT: 3
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page2/index.html
+voldemort - Paginating: POSTS FROM 10 to 15. PAGE NO: 3 TOTAL: 4 PREV: 2 NEXT: 4
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page3/index.html
+voldemort - Paginating: POSTS FROM 15 to 20. PAGE NO: 4 TOTAL: 4 PREV: 3 NEXT: None
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page4/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/lab.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/lab/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/not-found-404.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/not-found-404/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/robots.txt
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/robots.txt
+voldemort - Moving /Users/sree/src/fbb-dark/settings.yaml to /Users/sree/src/fbb-dark/_site/settings.yaml
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/sitemap.xml
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/sitemap.xml
+voldemort - Moving /Users/sree/src/fbb-dark/voldemort.log to /Users/sree/src/fbb-dark/_site/voldemort.log
+voldemort - Moving /Users/sree/src/fbb-dark/css/pygments.css to /Users/sree/src/fbb-dark/_site/css/pygments.css
+voldemort - Moving /Users/sree/src/fbb-dark/css/screen.css to /Users/sree/src/fbb-dark/_site/css/screen.css
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/404.jpg to /Users/sree/src/fbb-dark/_site/images/layout/404.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/body.png to /Users/sree/src/fbb-dark/_site/images/layout/body.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/button.png to /Users/sree/src/fbb-dark/_site/images/layout/button.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/dot.png to /Users/sree/src/fbb-dark/_site/images/layout/dot.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/favicon.ico to /Users/sree/src/fbb-dark/_site/images/layout/favicon.ico
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/footer.png to /Users/sree/src/fbb-dark/_site/images/layout/footer.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/header-cutout.png to /Users/sree/src/fbb-dark/_site/images/layout/header-cutout.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/header-low.png to /Users/sree/src/fbb-dark/_site/images/layout/header-low.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/headline.png to /Users/sree/src/fbb-dark/_site/images/layout/headline.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/subheadline.png to /Users/sree/src/fbb-dark/_site/images/layout/subheadline.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/backing_up.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/backing_up.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/backup_manager.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/backup_manager.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/bm_screen.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/bm_screen.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/exploited.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/exploited.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/ftp_server.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/ftp_server.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/installing.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/installing.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/teensy_loaded.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/teensy_loaded.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-12-31-reads-for-the-new-year/books.png to /Users/sree/src/fbb-dark/_site/images/posts/2010-12-31-reads-for-the-new-year/books.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2011-02-21-i-have-an-droid/emulator.png to /Users/sree/src/fbb-dark/_site/images/posts/2011-02-21-i-have-an-droid/emulator.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2011-04-11-a-magic-tool-for-tux-paint/scratch_on_bricks.png to /Users/sree/src/fbb-dark/_site/images/posts/2011-04-11-a-magic-tool-for-tux-paint/scratch_on_bricks.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2011-10-05-voldemort-a-jinja-powered-static-site-generator/voldemort.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2011-10-05-voldemort-a-jinja-powered-static-site-generator/voldemort.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/javascript/hijs.js to /Users/sree/src/fbb-dark/_site/javascript/hijs.js
+voldemort - Done.
+voldemort - Voldemort working at /Users/sree/src/fbb-dark
+voldemort.config - Loading voldemort configuration
+voldemort.template - Adding template directories to environment
+voldemort.template - Initializing voldemort filters
+voldemort - The following list of directories/files will be ignored: /Users/sree/src/fbb-dark/posts, /Users/sree/src/fbb-dark/_site, /Users/sree/src/fbb-dark/voldemort.log, /Users/sree/src/fbb-dark/.git, /Users/sree/src/fbb-dark/.DS_Store, /Users/sree/src/fbb-dark/layout, /Users/sree/src/fbb-dark/include
+voldemort - Serving HTTP on 0.0.0.0 port 8080 ...
+voldemort - Stopping httpd...
+voldemort - Voldemort working at /Users/sree/src/fbb-dark
+voldemort.config - Loading voldemort configuration
+voldemort.template - Adding template directories to environment
+voldemort.template - Initializing voldemort filters
+voldemort - The following list of directories/files will be ignored: /Users/sree/src/fbb-dark/posts, /Users/sree/src/fbb-dark/_site, /Users/sree/src/fbb-dark/voldemort.log, /Users/sree/src/fbb-dark/.git, /Users/sree/src/fbb-dark/.DS_Store, /Users/sree/src/fbb-dark/layout, /Users/sree/src/fbb-dark/include
+voldemort - Removing /Users/sree/src/fbb-dark/_site
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/a-magic-tool-for-tuxpaint.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/borg-pattern.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/building-custom-firmware-for-ps3.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/cheapest-personal-computer-on-a-usb.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/commandline-mapper.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/cricinfo-api-for-python.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/custom-authentication-on-gae.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/developing-scalable-services-with-python.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/factory-service-mode-om-playstation-3.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/fix-parallels-desktop-on-lion.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/github-powered-blogging.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/hacking-playstation3-with-teensy.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/hypergae-use-hypertable-for-appengine-datastore.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/i-have-an-droid.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/learn-web-development-with-flask.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/packaging-python-applications.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/reads-for-the-new-year.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/ubuntu-maverick-meerkat.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/voldemort-a-jinja-powered-static-site-generator.html
+voldemort - Generating posts from /Users/sree/src/fbb-dark/posts
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/10/05/voldemort-a-jinja-powered-static-site-generator/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/10/02/packaging-python-applications/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/08/30/developing-scalable-services-with-python/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/07/31/custom-authentication-on-gae/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/07/27/fix-parallels-desktop-on-lion/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/05/07/cheapest-personal-computer-on-a-usb/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/04/11/a-magic-tool-for-tuxpaint/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/02/21/i-have-an-droid/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/01/08/hypergae-use-hypertable-for-appengine-datastore/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/01/05/building-custom-firmware-for-ps3/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/12/31/reads-for-the-new-year/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/12/25/learn-web-development-with-flask/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/12/12/factory-service-mode-om-playstation-3/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/11/30/cricinfo-api-for-python/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/11/07/ubuntu-maverick-meerkat/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/10/06/borg-pattern/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/10/02/commandline-mapper/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/10/02/hacking-playstation3-with-teensy/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/09/23/github-powered-blogging/index.html
+voldemort - Generating pages
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/about.markdown
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/about/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/archive.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/archive/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/atom.xml
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/atom.xml
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/games.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/games/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/index.html
+voldemort - Paginating page /Users/sree/src/fbb-dark/index.html
+voldemort - Paginating: POSTS FROM 0 to 5. PAGE NO: 1 TOTAL: 4 PREV: None NEXT: 2
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/index.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page1/index.html
+voldemort - Paginating: POSTS FROM 5 to 10. PAGE NO: 2 TOTAL: 4 PREV: 1 NEXT: 3
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page2/index.html
+voldemort - Paginating: POSTS FROM 10 to 15. PAGE NO: 3 TOTAL: 4 PREV: 2 NEXT: 4
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page3/index.html
+voldemort - Paginating: POSTS FROM 15 to 20. PAGE NO: 4 TOTAL: 4 PREV: 3 NEXT: None
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page4/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/lab.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/lab/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/not-found-404.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/not-found-404/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/robots.txt
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/robots.txt
+voldemort - Moving /Users/sree/src/fbb-dark/settings.yaml to /Users/sree/src/fbb-dark/_site/settings.yaml
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/sitemap.xml
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/sitemap.xml
+voldemort - Moving /Users/sree/src/fbb-dark/voldemort.log to /Users/sree/src/fbb-dark/_site/voldemort.log
+voldemort - Moving /Users/sree/src/fbb-dark/css/pygments.css to /Users/sree/src/fbb-dark/_site/css/pygments.css
+voldemort - Moving /Users/sree/src/fbb-dark/css/screen.css to /Users/sree/src/fbb-dark/_site/css/screen.css
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/404.jpg to /Users/sree/src/fbb-dark/_site/images/layout/404.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/body.png to /Users/sree/src/fbb-dark/_site/images/layout/body.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/button.png to /Users/sree/src/fbb-dark/_site/images/layout/button.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/dot.png to /Users/sree/src/fbb-dark/_site/images/layout/dot.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/favicon.ico to /Users/sree/src/fbb-dark/_site/images/layout/favicon.ico
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/footer.png to /Users/sree/src/fbb-dark/_site/images/layout/footer.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/header-cutout.png to /Users/sree/src/fbb-dark/_site/images/layout/header-cutout.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/header-low.png to /Users/sree/src/fbb-dark/_site/images/layout/header-low.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/headline.png to /Users/sree/src/fbb-dark/_site/images/layout/headline.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/subheadline.png to /Users/sree/src/fbb-dark/_site/images/layout/subheadline.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/backing_up.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/backing_up.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/backup_manager.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/backup_manager.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/bm_screen.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/bm_screen.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/exploited.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/exploited.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/ftp_server.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/ftp_server.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/installing.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/installing.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/teensy_loaded.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/teensy_loaded.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-12-31-reads-for-the-new-year/books.png to /Users/sree/src/fbb-dark/_site/images/posts/2010-12-31-reads-for-the-new-year/books.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2011-02-21-i-have-an-droid/emulator.png to /Users/sree/src/fbb-dark/_site/images/posts/2011-02-21-i-have-an-droid/emulator.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2011-04-11-a-magic-tool-for-tux-paint/scratch_on_bricks.png to /Users/sree/src/fbb-dark/_site/images/posts/2011-04-11-a-magic-tool-for-tux-paint/scratch_on_bricks.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2011-10-05-voldemort-a-jinja-powered-static-site-generator/voldemort.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2011-10-05-voldemort-a-jinja-powered-static-site-generator/voldemort.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/javascript/hijs.js to /Users/sree/src/fbb-dark/_site/javascript/hijs.js
+voldemort - Done.
+voldemort - Voldemort working at /Users/sree/src/fbb-dark
+voldemort.config - Loading voldemort configuration
+voldemort.template - Adding template directories to environment
+voldemort.template - Initializing voldemort filters
+voldemort - The following list of directories/files will be ignored: /Users/sree/src/fbb-dark/posts, /Users/sree/src/fbb-dark/_site, /Users/sree/src/fbb-dark/voldemort.log, /Users/sree/src/fbb-dark/.git, /Users/sree/src/fbb-dark/.DS_Store, /Users/sree/src/fbb-dark/layout, /Users/sree/src/fbb-dark/include
+voldemort - Serving HTTP on 0.0.0.0 port 8080 ...
+voldemort - Stopping httpd...
+voldemort - Voldemort working at /Users/sree/src/fbb-dark
+voldemort.config - Loading voldemort configuration
+voldemort.template - Adding template directories to environment
+voldemort.template - Initializing voldemort filters
+voldemort - The following list of directories/files will be ignored: /Users/sree/src/fbb-dark/posts, /Users/sree/src/fbb-dark/_site, /Users/sree/src/fbb-dark/voldemort.log, /Users/sree/src/fbb-dark/.git, /Users/sree/src/fbb-dark/.DS_Store, /Users/sree/src/fbb-dark/layout, /Users/sree/src/fbb-dark/include
+voldemort - Serving HTTP on 0.0.0.0 port 8080 ...
+voldemort - Stopping httpd...
+voldemort - Voldemort working at /Users/sree/src/fbb-dark
+voldemort.config - Loading voldemort configuration
+voldemort.template - Adding template directories to environment
+voldemort.template - Initializing voldemort filters
+voldemort - The following list of directories/files will be ignored: /Users/sree/src/fbb-dark/posts, /Users/sree/src/fbb-dark/_site, /Users/sree/src/fbb-dark/voldemort.log, /Users/sree/src/fbb-dark/.git, /Users/sree/src/fbb-dark/.DS_Store, /Users/sree/src/fbb-dark/layout, /Users/sree/src/fbb-dark/include
+voldemort - Removing /Users/sree/src/fbb-dark/_site
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/a-magic-tool-for-tuxpaint.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/borg-pattern.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/building-custom-firmware-for-ps3.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/cheapest-personal-computer-on-a-usb.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/commandline-mapper.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/cricinfo-api-for-python.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/custom-authentication-on-gae.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/developing-scalable-services-with-python.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/factory-service-mode-om-playstation-3.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/fix-parallels-desktop-on-lion.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/github-powered-blogging.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/hacking-playstation3-with-teensy.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/hypergae-use-hypertable-for-appengine-datastore.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/i-have-an-droid.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/learn-web-development-with-flask.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/packaging-python-applications.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/reads-for-the-new-year.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/ubuntu-maverick-meerkat.markdown
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/posts/voldemort-a-jinja-powered-static-site-generator.html
+voldemort - Generating posts from /Users/sree/src/fbb-dark/posts
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/10/05/voldemort-a-jinja-powered-static-site-generator/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/10/02/packaging-python-applications/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/08/30/developing-scalable-services-with-python/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/07/31/custom-authentication-on-gae/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/07/27/fix-parallels-desktop-on-lion/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/05/07/cheapest-personal-computer-on-a-usb/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/04/11/a-magic-tool-for-tuxpaint/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/02/21/i-have-an-droid/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/01/08/hypergae-use-hypertable-for-appengine-datastore/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2011/01/05/building-custom-firmware-for-ps3/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/12/31/reads-for-the-new-year/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/12/25/learn-web-development-with-flask/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/12/12/factory-service-mode-om-playstation-3/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/11/30/cricinfo-api-for-python/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/11/07/ubuntu-maverick-meerkat/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/10/06/borg-pattern/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/10/02/commandline-mapper/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/10/02/hacking-playstation3-with-teensy/index.html
+voldemort - Generating post: /Users/sree/src/fbb-dark/_site/2010/09/23/github-powered-blogging/index.html
+voldemort - Generating pages
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/about.markdown
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/about/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/archive.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/archive/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/atom.xml
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/atom.xml
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/games.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/games/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/index.html
+voldemort - Paginating page /Users/sree/src/fbb-dark/index.html
+voldemort - Paginating: POSTS FROM 0 to 5. PAGE NO: 1 TOTAL: 4 PREV: None NEXT: 2
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/index.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page1/index.html
+voldemort - Paginating: POSTS FROM 5 to 10. PAGE NO: 2 TOTAL: 4 PREV: 1 NEXT: 3
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page2/index.html
+voldemort - Paginating: POSTS FROM 10 to 15. PAGE NO: 3 TOTAL: 4 PREV: 2 NEXT: 4
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page3/index.html
+voldemort - Paginating: POSTS FROM 15 to 20. PAGE NO: 4 TOTAL: 4 PREV: 3 NEXT: None
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/page4/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/lab.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/lab/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/not-found-404.html
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/not-found-404/index.html
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/robots.txt
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/robots.txt
+voldemort - Moving /Users/sree/src/fbb-dark/settings.yaml to /Users/sree/src/fbb-dark/_site/settings.yaml
+voldemort.template - Parsing meta-data from /Users/sree/src/fbb-dark/sitemap.xml
+voldemort - Generating page /Users/sree/src/fbb-dark/_site/sitemap.xml
+voldemort - Moving /Users/sree/src/fbb-dark/voldemort.log to /Users/sree/src/fbb-dark/_site/voldemort.log
+voldemort - Moving /Users/sree/src/fbb-dark/css/pygments.css to /Users/sree/src/fbb-dark/_site/css/pygments.css
+voldemort - Moving /Users/sree/src/fbb-dark/css/screen.css to /Users/sree/src/fbb-dark/_site/css/screen.css
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/404.jpg to /Users/sree/src/fbb-dark/_site/images/layout/404.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/body.png to /Users/sree/src/fbb-dark/_site/images/layout/body.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/button.png to /Users/sree/src/fbb-dark/_site/images/layout/button.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/dot.png to /Users/sree/src/fbb-dark/_site/images/layout/dot.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/favicon.ico to /Users/sree/src/fbb-dark/_site/images/layout/favicon.ico
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/footer.png to /Users/sree/src/fbb-dark/_site/images/layout/footer.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/header-cutout.png to /Users/sree/src/fbb-dark/_site/images/layout/header-cutout.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/header-low.png to /Users/sree/src/fbb-dark/_site/images/layout/header-low.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/headline.png to /Users/sree/src/fbb-dark/_site/images/layout/headline.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/layout/subheadline.png to /Users/sree/src/fbb-dark/_site/images/layout/subheadline.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/backing_up.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/backing_up.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/backup_manager.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/backup_manager.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/bm_screen.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/bm_screen.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/exploited.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/exploited.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/ftp_server.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/ftp_server.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/installing.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/installing.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-10-02-hacking-playstation3-with-teensy/teensy_loaded.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2010-10-02-hacking-playstation3-with-teensy/teensy_loaded.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2010-12-31-reads-for-the-new-year/books.png to /Users/sree/src/fbb-dark/_site/images/posts/2010-12-31-reads-for-the-new-year/books.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2011-02-21-i-have-an-droid/emulator.png to /Users/sree/src/fbb-dark/_site/images/posts/2011-02-21-i-have-an-droid/emulator.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2011-04-11-a-magic-tool-for-tux-paint/scratch_on_bricks.png to /Users/sree/src/fbb-dark/_site/images/posts/2011-04-11-a-magic-tool-for-tux-paint/scratch_on_bricks.png
+voldemort - Moving /Users/sree/src/fbb-dark/images/posts/2011-10-05-voldemort-a-jinja-powered-static-site-generator/voldemort.jpg to /Users/sree/src/fbb-dark/_site/images/posts/2011-10-05-voldemort-a-jinja-powered-static-site-generator/voldemort.jpg
+voldemort - Moving /Users/sree/src/fbb-dark/javascript/hijs.js to /Users/sree/src/fbb-dark/_site/javascript/hijs.js
+voldemort - Done.
+voldemort - Voldemort working at /Users/sree/src/fbb-dark
+voldemort.config - Loading voldemort configuration
+voldemort.template - Adding template directories to environment
+voldemort.template - Initializing voldemort filters
+voldemort - The following list of directories/files will be ignored: /Users/sree/src/fbb-dark/posts, /Users/sree/src/fbb-dark/_site, /Users/sree/src/fbb-dark/voldemort.log, /Users/sree/src/fbb-dark/.git, /Users/sree/src/fbb-dark/.DS_Store, /Users/sree/src/fbb-dark/layout, /Users/sree/src/fbb-dark/include
+voldemort - Serving HTTP on 0.0.0.0 port 8080 ...
+voldemort - Stopping httpd...
+voldemort - Voldemort working at /Users/vishnu/src/templates
+voldemort.config - Loading voldemort configuration
+voldemort.template - Adding template directories to environment
+voldemort.template - Initializing voldemort filters
+voldemort - The following list of directories/files will be ignored: /Users/vishnu/src/templates/posts, /Users/vishnu/src/templates/_site, /Users/vishnu/src/templates/voldemort.log, /Users/vishnu/src/templates/.git, /Users/vishnu/src/templates/.DS_Store, /Users/vishnu/src/templates/layout, /Users/vishnu/src/templates/include
+voldemort - Removing /Users/vishnu/src/templates/_site
+voldemort.template - Parsing meta-data from /Users/vishnu/src/templates/posts/a-magic-tool-for-tuxpaint.markdown
+voldemort - Generating posts from /Users/vishnu/src/templates/posts
+voldemort - Generating post: /Users/vishnu/src/templates/_site/2011/12/31/a-magic-tool-for-tuxpaint/index.html
+voldemort - Generating pages
+voldemort.template - Parsing meta-data from /Users/vishnu/src/templates/about.markdown
+voldemort - Generating page /Users/vishnu/src/templates/_site/about/index.html
+voldemort.template - Parsing meta-data from /Users/vishnu/src/templates/archive.html
+voldemort - Generating page /Users/vishnu/src/templates/_site/archive/index.html
+voldemort.template - Parsing meta-data from /Users/vishnu/src/templates/atom.xml
+voldemort - Generating page /Users/vishnu/src/templates/_site/atom.xml
+voldemort.template - Parsing meta-data from /Users/vishnu/src/templates/games.html
+voldemort - Generating page /Users/vishnu/src/templates/_site/games/index.html
+voldemort.template - Parsing meta-data from /Users/vishnu/src/templates/index.html
+voldemort - Paginating page /Users/vishnu/src/templates/index.html
+voldemort - Paginating: POSTS FROM 0 to 5. PAGE NO: 1 TOTAL: 1 PREV: None NEXT: None
+voldemort - Generating page /Users/vishnu/src/templates/_site/index.html
+voldemort - Generating page /Users/vishnu/src/templates/_site/page1/index.html
+voldemort.template - Parsing meta-data from /Users/vishnu/src/templates/lab.html
+voldemort - Generating page /Users/vishnu/src/templates/_site/lab/index.html
+voldemort.template - Parsing meta-data from /Users/vishnu/src/templates/not-found-404.html
+voldemort - Generating page /Users/vishnu/src/templates/_site/not-found-404/index.html
+voldemort.template - Parsing meta-data from /Users/vishnu/src/templates/robots.txt
+voldemort - Generating page /Users/vishnu/src/templates/_site/robots.txt
+voldemort - Moving /Users/vishnu/src/templates/settings.yaml to /Users/vishnu/src/templates/_site/settings.yaml
+voldemort.template - Parsing meta-data from /Users/vishnu/src/templates/sitemap.xml
+voldemort - Generating page /Users/vishnu/src/templates/_site/sitemap.xml
+voldemort - Moving /Users/vishnu/src/templates/voldemort.log to /Users/vishnu/src/templates/_site/voldemort.log

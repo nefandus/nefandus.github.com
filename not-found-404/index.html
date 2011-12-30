@@ -3,7 +3,7 @@
 <html lang="en-US">
 
 <head>
-<title>foobarnbaz.com - Pythonned!</title>
+<title>foobarnbaz.com - 404 Not Found</title>
 <meta charset="UTF-8" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="author" content="Sreejith K" />
@@ -49,37 +49,23 @@
 <div id="container" style="position: relative">
 
 
+<h2>No donut for you &ndash; 404 Error</h2>
 
+<img src="/images/layout/404.jpg">
 
-<article class="excerpt">
-<header>
-<h2><a href="/2011/12/31/a-magic-tool-for-tuxpaint">Hello, World!</a></h2>
-<time datetime="2011-12-31" pubdate="pubdate">
-Dec 31, 2011
-</time>
-</header>
+<p>The file or page you're looking for does not exist. Try searching.</p>
 
-
-<p>Hello, World!</p>
-<p class="full-post"><a href="/2011/12/31/a-magic-tool-for-tuxpaint#comments">comments...</a></p>
-
-<p class=a>&#x2767;
-</article>
-
-
-<div class="blog-nav">
-
-
-</div>
-
-<form action="//www.google.com/cse">
-	<div>
-		<input type="hidden" name="cx" value="008366686725858774687:1xm9cqc7b0c">
-		<input type="hidden" name="ie" value="UTF-8">
-		<input type="search" name="q" size="25" placeholder="powered by Google™">&nbsp;
-		<input type="submit" name="sa" value="Search">
-	</div>
-</form>
+<div id="cse" style="width: 100%;">Loading</div>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript"> 
+  google.load('search', '1', {language : 'en'});
+  google.setOnLoadCallback(function() {
+    var customSearchControl = new google.search.CustomSearchControl('008366686725858774687:1xm9cqc7b0c');
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+    customSearchControl.draw('cse');
+  }, true);
+</script>
+<link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css" />
 
 
 <div class="footer">Powered by <a href="https://github.com/semk/voldemort">Voldemort</a></div>

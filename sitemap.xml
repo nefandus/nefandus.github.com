@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://foobarnbaz.com/2011/12/31/a-magic-tool-for-tuxpaint</loc>
+    <lastmod>2011-12-31</lastmod>
+  </url>
+  
+  <url>
+      <loc>http://foobarnbaz.com/</loc>
+    <lastmod>2011-12-31</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://foobarnbaz.com/about/</loc>
+    <lastmod>2010-01-14</lastmod>
+  </url>
+  <url>
+    <loc>http://foobarnbaz.com/archive/</loc>
+    <lastmod>2011-12-31</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+</urlset> 
